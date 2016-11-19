@@ -213,3 +213,139 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+/* For mobile phones: */
+@media only screen and (max-width: 640px) {
+	#masthead {
+		position: static;
+		margin: 0 0 10px 0;
+	}
+	#logo {
+		width: 100%;
+		height: 65px;
+		line-height: 65px;
+		padding-bottom: 50px;
+	}
+	nav {
+		width: 100%;
+		margin: 10px 0 10px 0;
+	}
+	nav a {
+		margin-left: 100px;
+		display: inline-block;
+	}
+	#main-container {
+		padding-top: 0px;
+	}
+	.main-section {
+		padding: 15px;
+		width: 95%;
+		margin: 15px 15px 15px 15px;
+	}
+	.auth-image {
+		width: 100%;
+		height: auto;
+		margin-top: 10px;
+		float: left;
+		margin-right: 25px;
+	}
+	.sidebar {
+		padding: 15px;
+		max-width: 95%;
+		margin: 0px 15px 15px 15px;
+	}
+	.work {
+		width: 100%;
+		margin: 15px 15px 15px 15px;
+	}
+	.work img {
+		width: 95%;
+	}
+	.work h3 {
+		width: 95%;
+	}
+}
+/* For tablets: */
+@media only screen and (min-width: 641px) and (max-width: 768px) {	
+	#logo {
+		margin: 0 0 0 20px;
+	}
+	nav {
+		margin-top: 30px;
+	}
+	nav a {
+		margin: 0 25px 0 0;
+		display: inline-block;
+	}
+	#main-container {
+		padding-top: 100px;
+	}
+	.main-section {
+		max-width: 95%;
+		padding: 15px;
+		margin: 15px 15px 15px 20px;
+	}
+	.auth-image {
+		width: 50%;
+		height: auto;
+		margin-top: 10px;
+		float: left;
+		margin-right: 25px;
+	}
+	.sidebar {
+		padding: 15px;
+		max-width: 95%;
+		margin: 0px 20px 15px 15px;
+	}
+	.work {
+		margin: 15px 15px 15px 35px;
+	}
+	.work img {
+		width: 100%;
+	}
+	.work h3 {
+		width: 100%;
+	}
+}
+/* For desktop: */
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+	#logo {
+		margin: 0 0 0 100px;
+	}
+	nav {
+		margin: 30px 50px 0 0;
+	}
+	nav a {
+		margin: 0 20px 0 0;
+		display: inline-block;
+	}
+	#main-container {
+		padding-top: 100px;
+	}
+	.main-section {
+		max-width: 50%;
+		padding: 30px;
+		margin: 15px 15px 15px 100px;
+	}
+	.auth-image {
+		width: 100%;
+		height: auto;
+		margin-top: 10px;
+		float: left;
+		margin-right: 25px;
+	}
+	.sidebar {
+		padding: 30px 30px 30px 40px;
+		max-width: 30%;
+		margin: 15px 60px 0px 0px;
+	}
+	.work {
+		width: 400px;
+		margin: 10px 10px 10px 10px;
+	}
+	.work img {
+		width: 100%;
+	}
+	.work h3 {
+		width: 100%;
+	}
+}
